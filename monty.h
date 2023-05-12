@@ -70,8 +70,6 @@ void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
 void f_queue(stack_t **head, unsigned int counter);
 void f_stack(stack_t **head, unsigned int counter);
-
-void push_stack(stack_t **head, unsigned int line_number);
-void pall_stack(stack_t **head, unsigned int line_number);
+void f_pop(stack_t **head, unsigned int counter);
 
 #endif /* _MONTY_H_ */
